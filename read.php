@@ -9,7 +9,7 @@
             continue;
         }
 
-        $inputFileName = "samba/eae/" . $file;
+        $inputFileName = "arquivos/" . $file;
 
         try {
             $inputFileType = PHPExcel_IOFactory::identify("samba/eae/teste.xls");
